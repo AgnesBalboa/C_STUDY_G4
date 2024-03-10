@@ -6,7 +6,10 @@
     text-decoration: none;
     list-style: none;
 }
-
+.img .logo{
+    width: 88px ;
+    height: 80px ;
+}
 .header{
     position: fixed;
     top: 0;
