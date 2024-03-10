@@ -12,6 +12,10 @@
     background: violet;
   
 }
+.logo .logos {
+    width: 105px;
+    height: 50%;
+}
 nav {
 
     display: flex;
@@ -36,26 +40,37 @@ nav ul li a:hover{
 }
 .detail{
     margin-left: 8%;
-    margin-top: 13%;
+    margin-top: 8%;
 }
 .detail h1{
     font-size: 50px;
     color:yellow;
     margin-bottom: 20px;
 }
+.detail a{
+    background: black;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
 span{
     color: bisque;
 }
 .detail p{
     color: #555;
-    line-height: 22px;
+    line-height: 20px;
 }
 .images{
-    width: 45%;
-    height: 88%;
+    width: 50%;
+    height: 50%;
     position: absolute;
     bottom: 0;
-    right: 100px;
+    right: 105px;
 }
 .images img{
    height: 100px;
