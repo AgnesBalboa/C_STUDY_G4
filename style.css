@@ -5,10 +5,21 @@
     font-family: "Poppins", sans-serif;
     text-decoration: none;
     list-style: none;
+    
+}
+body{
+    background: black;
+    backdrop-filter: blur(10px);
 }
 .img .logo{
     width: 88px ;
     height: 80px ;
+    border-radius: 25%;
+}
+.img .logo:hover{
+    background-color: red;
+    box-shadow: 0 0 50px red;
+    color: white;
 }
 .header{
     position: fixed;
@@ -52,4 +63,17 @@
     box-shadow: 0 0 50px red;
     color: white;
     
+}
+ .detail h1{
+    color: white;
+
+}
+.detail{
+    top: 170px;
+    left: 50px;
+    position: relative;
+    
+}
+.detail h3{
+    color: white;
 }
