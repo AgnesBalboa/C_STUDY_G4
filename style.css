@@ -21,20 +21,7 @@
     z-index: 100;
 }
 
-.logo{
-    font-size: 25px;
-    color: white;
-    font-weight: 600;
-    transition: 0.3s ease;
-}
-.logo:hover{
-    color: red;
-    text-shadow: 0 0 25px orange;
-    transform: scale(1.3);
-}
-span{
-    color: red;
-}
+
 .navbar a{
     font-size: 18px;
     color: white;
@@ -48,7 +35,7 @@ span{
     color: darkcyan;
     border-bottom: 3px solid darkcyan;
 }
-.contact{
+.about{
     padding: 10px 28px;
     background-color: white;
     color: black;
@@ -57,7 +44,7 @@ span{
     font-size: 16px;
     letter-spacing: 1px;
 }
-.contact:hover{
+.about:hover{
     background-color: red;
     box-shadow: 0 0 50px red;
     color: white;
