@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +11,17 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    background: violet;
+    background:violet;
+   
+    
+
   
 }
 .logo .logos {
     width: 105px;
     height: 50%;
+    opacity: 80%;
+    border-radius: 20%;
 }
 nav {
 
@@ -58,6 +65,10 @@ nav ul li a:hover{
     border-radius: 5px;
 
 }
+.detail a:hover{
+    color: violet;
+                
+}
 span{
     color: bisque;
 }
@@ -66,25 +77,39 @@ span{
     line-height: 20px;
 }
 .images{
-    width: 50%;
-    height: 50%;
-    position: absolute;
+    width:50%;
+    height:50%;
+    position:absolute;
     bottom: 0;
     right: 105px;
+    
 }
 .images img{
    height: 100px;
    position: absolute;
    left: 50%;
-   bottom: 0;
-   transform: translateX(-45%);
+   bottom:0;
+   transform: translateX(-50%);
     transition: bottom 1s, left 1s;
+}
+.images .pic{
+
+    width: 300px;
+    height: 600px;
+
+}
+.images .sh{
+    width: 500px;
+    height: 600px;
+    opacity: 70%;
+    
 }
 .images:hover .sh{
     bottom: 20px;
  
 }
 .images:hover .pic{
-left: 45%
+left: 45%;
+
 
 }
