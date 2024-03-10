@@ -28,12 +28,15 @@ nav ul li{
 }
 nav ul li a{
     text-decoration:violet ;
-    color: peru;
+    color: red;
     font-weight: bold;
+}
+nav ul li a:hover{
+    color: white;
 }
 .detail{
     margin-left: 8%;
-    margin-top: 15%;
+    margin-top: 13%;
 }
 .detail h1{
     font-size: 50px;
@@ -59,13 +62,14 @@ span{
    position: absolute;
    left: 50%;
    bottom: 0;
-   transform: translateX(-50%);
+   transform: translateX(-45%);
     transition: bottom 1s, left 1s;
 }
 .images:hover .sh{
-    bottom: 40px;
-
+    bottom: 20px;
+ 
 }
 .images:hover .pic{
-left: 45%;
+left: 45%
+
 }
