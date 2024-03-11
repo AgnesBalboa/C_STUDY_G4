@@ -6,6 +6,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 body{
     background: black;
 }
@@ -59,6 +60,8 @@ h4{
     box-shadow: 0 0 50px red;
     color: white;
     transition: .5s;
+  
+    
 }
 .contact:hover{
     background-color: red;
@@ -120,20 +123,4 @@ h3{
     background: rgba(255, 255, 255, 0.24);
     transition: .5s;
 }
- .content h5{
-    color: white;
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 50px;
-    padding: 10px 40px;
-    margin-top: 100px;
-    border-radius: 30px;
-    border: 2px solid transparent;
-    cursor: pointer;
-}
-.content h5:hover{
-    background: transparent;
-    border: 2px solid red;
-    color: red;
-    transition: .5s;
-}
+ 
