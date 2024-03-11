@@ -7,7 +7,21 @@
     list-style: none;
 }
 body{
-    background: #02070a;
+    background: black;
+}
+h4{
+    
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border: 3px solid orangered;
+    color: red;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
 }
 .header{
     position: fixed;
@@ -15,7 +29,7 @@ body{
     left: 0;
     width: 100%;
     padding: 30px 25%;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgb(22, 22, 22);
     backdrop-filter: blur(10px);
     display: flex;
     justify-content: space-between;
@@ -23,11 +37,7 @@ body{
     z-index: 100;
     font-size: 20px;
 }
-.navbar{
-    padding: 20px 100px;
-   
-}
-.home{
+.navbar a {
     color: white;
     text-decoration: none ;
     border: 2px solid transparent;
@@ -35,44 +45,29 @@ body{
     padding: 10px 20px;
     border-radius: 10px ;
     transition:  transform 0.2s ;
-}
-
-.educ{
-    color: white;
-    text-decoration: none ;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding:  10px 20px;
-    border-radius: 10px ;
-    transition:  transform 0.2s ;
-}
+    margin-right: 20px;
+}   
 
 .home:hover{
     background-color: red;
     box-shadow: 0 0 50px red;
     color: white;
+    transition: .5s;
 }
 .educ:hover{
     background-color: red;
     box-shadow: 0 0 50px red;
     color: white;
+    transition: .5s;
 }
 .contact:hover{
     background-color: red;
     box-shadow: 0 0 50px red;
     color: white;
+    transition: .5s;
     
 }
-.contact{
-    color: white;
-    text-decoration: none ;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 15px 10px;
-    border-radius: 10px ;
-    transition:  transform 0.2s ;
 
-}
 span{
 color: red;
 }
@@ -94,6 +89,51 @@ h1{
 h3{
     
     color: white;
-    letter-spacing: 5;
-    font-size: 20px;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+.content {
+    top: 150px;
+}
+.content p{
+    color: white;
+}
+
+
+.social a{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-flex  ;
+    align-items:center;
+    justify-content: center;
+    font-size: 17px;
+    color: red;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: rgba(255, 255, 255, 0.1) ;
+    margin-bottom: 35px;
+}
+.social a:hover{
+    transform: scale (1.1);
+    background: rgba(255, 255, 255, 0.24);
+    transition: .5s;
+}
+ .content h5{
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 50px;
+    padding: 10px 40px;
+    margin-top: 100px;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+.content h5:hover{
+    background: transparent;
+    border: 2px solid red;
+    color: red;
+    transition: .5s;
 }
