@@ -91,19 +91,6 @@ body{
     background-color: var(--main-color);
     
 }
- .detail h1{
-    color: white;
-
-}
-.detail{
-    top: 170px;
-    left: 50px;
-    position: relative;
-    
-}
-.detail p{
-    color: white;
-}
 
 footer, .push{
     position: absolute;
@@ -189,4 +176,44 @@ body {
     padding-bottom: 6.74rem;
     box-sizing: inherit;
     overflow-x: hidden;
+}
+button{
+    width: 250px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    top: 280px;
+    right: 330px;
+}
+span{
+    background: #009688;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+button:hover span{
+    width: 100%;
+}
+button:hover{
+    border: none;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+    position: relative;
+    right: 155px;
 }
