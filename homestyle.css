@@ -6,6 +6,18 @@
     font-family: 'Times New Roman', Times, serif;
 
 }
+:root{
+    --bg-color: #111111;
+    --second-bg-color:#151515;
+    --text-color:white;
+    --main-color:#84fffb;
+
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    
+}
 .hero {
 
     position: relative;
@@ -21,8 +33,18 @@
     width: 105px;
     height: 50%;
     opacity: 80%;
-    border-radius: 20%;
+    border-radius: 10%;
+
 }
+.logo .logos:hover{
+
+    color: white;
+    transform: scale(1.3)translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
+
+}
+
 nav {
 
     display: flex;
@@ -75,6 +97,7 @@ span{
 .detail p{
     color: #555;
     line-height: 20px;
+    font-size: medium;
 }
 .images{
     width:50%;
@@ -114,3 +137,19 @@ left: 25%;
 
 }
 
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #typing-text {
+    color: #666;
+    font-size: large;
+    font-weight: bold;
+  }

@@ -98,6 +98,27 @@ section{
     transform: scale(1.3)translateY(-5px);
     box-shadow: 0 0 25px var(--main-color);
     background-color: var(--main-color);
+  
+}
+.button{
+    display:inline-flex ;
+    justify-content: center;
+    align-items: center;
+    width: rem;
+    height: rem;
+    background:transparent;
+    border: 0.2rem solid var(--main-color);
+    font-size: 2.5rem;
+    border-radius: 0%;
+    color: var(--main-color);
+    margin: 3rem 1.5rem 3rem 0;
+    transition: 0.3s ease-in-out;
+}
+.button:hover{
 
+    color: blue;
+    transform: scale(1.3)translateY(-5px);
+    box-shadow: 0 0 25px var(--main-color);
+    background-color: var(--main-color);
 
 }
