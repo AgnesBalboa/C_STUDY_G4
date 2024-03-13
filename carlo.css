@@ -24,10 +24,10 @@
 }
 
 .navbar .carlo{
-    width: 160px;
+    width: 200px;
     cursor: pointer;
-    margin-top: -3%;
-    margin-left: -2%;
+    margin-top: -5%;
+    margin-left: -3%;
 }
 
 ul{
@@ -80,8 +80,8 @@ ul li a:hover{
     background: transparent;
     border: 2px solid black;
     margin: 26xp 0;
-    padding: 5px 10px;
-    border-radius: 20px;
+    padding: 10px 10px;
+    border-radius: 30px;
     display: inline-block;
     transition: .4s ease;
     font-size: 20px;
@@ -94,25 +94,27 @@ ul li a:hover{
 }
 
 .image{
-    width: 30%;
-    height: 60%;
+    width: 500px;
+    height: 100%;
     position: absolute;
-    right: 100px;
+    margin-left: 450px;
     bottom: 0;
+    top: 7%;
 }
 
 .image img{
+    top: 20px;
     position: absolute;
-    height: 140px;
-    left: 40%;
+    height: 500px;
+    margin-left: 300px;
+    width: 500px;
+    left: 55%;
     transform: translate(-50%);
     bottom: 0;
     transition: left 2s ease;
 }
 
-.image:haver .boy{
-    left: 55%;
-}
+
 
 .icons a{
     text-decoration: none;
@@ -120,6 +122,7 @@ ul li a:hover{
     position: relative;
     top: 10px;
     left: 14vh;
+    font-size: 50px;
     
 }
 
